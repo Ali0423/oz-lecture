@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <title>User Registration Form</title>
+  </head>
+  <h1><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">User Registration</font></font></h1>
+  <br>
+  <body>
+    <form action="#" method="POST">
+       <div>
+        <p><label for="username">이름:</label> <input type="text" idㄴ="username" name="username" placeholdㄴer="사용자 이름" /></p>
+        <p><label for="email">이메일:</label>  <input type="email" id="email" name="email" placeholder="example@domain.com" /></p>
+        <p><label for="password">비밀번호:</label>  <input type="password" id="password" name="password" placeholder="비밀번호" /></p>
+        <p><label for="birthdate">생년월일:</label>  <input type="date" id="birthdate" name="birthdate" placeholder="생년월일" /></p>
+        <p><label for="age">나이:</label>  <input type="number" id="age" name="age" min="18" max="100" placeholder="나이" /></p>
+        <p><label for="volume">서비스 만족도:</label>  <input type="range" id="volume" name="volume" min="1" max="100" placeholder="서비스 만족도" /></p>
+        <p><label for="gender_male">성별:</label>  <input type="radio"  id="gender_male" name="gender" value="male" /> 남성 
+                          <label for="gender_female"></label>  <input type="radio" id="gender_female" name="gender" value="female" /> 여성</p>
+        <p>관심사: <label for="reading"></label>  <input type="checkbox" id="reading" name="hobby" value="reading" /> 독서
+                  <label for="animal"></label>  <input type="checkbox" id="animal" name="hobby" value="animal" /> 애완동물
+                  <label for="art"></label>  <input type="checkbox" id="art" name="hobby" value="art" /> 예술 </p>
+        <p>국가 선택:</p>
+        <label>
+        <select id="nation" name="nation" multiple>
+          <option value="korea">한국</option>
+          <option value="japan">일본</option>
+          <option value="china">중국</option>
+        </select></label>
+      </div> 
+<br>
+<br>
+<br>
+      <button type="submit">제출</button>
+      <button type="reset">초기화</button>
+    </form>
+  </body>
+</html>
